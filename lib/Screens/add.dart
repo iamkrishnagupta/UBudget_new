@@ -63,7 +63,6 @@ class _Add_ScreenState extends State<Add_Screen> {
       backgroundColor: Colors.grey.shade100,
       body: SingleChildScrollView(
         child: SafeArea(
-          
           child: Center(
             child: Stack(
               children: [
@@ -385,9 +384,7 @@ class _Add_ScreenState extends State<Add_Screen> {
                     ),
                   ),
                 ),
-                SizedBox(
-                    width:
-                        48), 
+                SizedBox(width: 48),
               ],
             ),
           ),

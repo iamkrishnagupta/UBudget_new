@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hive_flutter/adapters.dart';
@@ -27,7 +26,6 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
     ));
@@ -178,7 +176,6 @@ class _HomeState extends State<Home> {
                     color: Colors.black,
                   ),
                 ),
-                
               ],
             ),
           ),
@@ -195,7 +192,8 @@ class _HomeState extends State<Home> {
                   child: ListTile(
                     leading: ClipRRect(
                       borderRadius: BorderRadius.circular(5),
-                      child: Image.asset('images/${history.name}.png', height: 40),
+                      child:
+                          Image.asset('images/${history.name}.png', height: 40),
                     ),
                     title: Text(
                       history.name,
@@ -215,7 +213,8 @@ class _HomeState extends State<Home> {
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         fontSize: 19,
-                        color: history.IN == 'Income' ? Colors.green : Colors.red,
+                        color:
+                            history.IN == 'Income' ? Colors.green : Colors.red,
                       ),
                     ),
                   ),
@@ -229,8 +228,7 @@ class _HomeState extends State<Home> {
   }
 }
 
-
-//Old code, 
+//Old code,
 // import 'package:flutter/material.dart';
 // import 'package:hive_flutter/adapters.dart';
 // import 'package:managment/data/model/add_date.dart';
@@ -537,5 +535,3 @@ class _HomeState extends State<Home> {
 //     );
 //   }
 // }
-
-

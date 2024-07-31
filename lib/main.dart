@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:managment/widgets/bottomnavigationbar.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
-
 import 'data/model/add_date.dart';
 
 void main() async {
@@ -17,7 +16,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Bottom(),
